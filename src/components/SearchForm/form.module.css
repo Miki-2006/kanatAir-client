@@ -1,0 +1,145 @@
+.container {
+  /* max-width: 1300px; */
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+.form {
+  background-color: white;
+  padding: 15px 22px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 111px 0 rgba(0, 0, 0, 0.16);
+  transform: translateY(-60px);
+}
+.top{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.locations{
+  position: relative;
+}
+.originCity {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  /* width: 90%; */
+}
+.originCity:focus{
+  border: #F76641;
+}
+.destinationCity {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  /* width: 90%; */
+}
+.departureDate {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  /* width: 90%; */
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.departureDateCalendar {
+  background-color: #f76641;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+}
+.arrivalDate {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  /* width: 90%; */
+}
+.arrivalDateCalendar {
+  background-color: #f76641;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+}
+.setPassenger{
+  position: relative;
+}
+.setPassenger button{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.submitBtn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #F76641;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  box-shadow: 0 15px 30px 0 rgba(247, 102, 65, 0.16);
+  font-weight: 600;
+  font-size: 16px;
+  transform: translateY(35px);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.submitBtn img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  background: #ff8161;
+  border-radius: 7px;
+  padding: 11px;
+}
+.passengerBlock {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: absolute;
+}
+.block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.block button {
+  border: none;
+  background-color: #fff;
+}
+
+.suggestions{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+}

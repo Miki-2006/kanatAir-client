@@ -1,0 +1,28 @@
+.casino {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.wordRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.slot {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+

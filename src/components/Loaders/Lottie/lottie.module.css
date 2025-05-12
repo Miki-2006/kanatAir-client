@@ -1,0 +1,12 @@
+.loader{
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
+    position: sticky;
+    /* top: 500px;
+    left: 500px; */
+    /* z-index: 1; */
+}
+body{
+    position: relative;
+}

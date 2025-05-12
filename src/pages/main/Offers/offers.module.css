@@ -1,0 +1,32 @@
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* .loader{
+  position: absolute;
+} */
+.loaderWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный тёмный фон */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Поверх всего */
+}
+.offerPage{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный тёмный фон */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}

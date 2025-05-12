@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(./assets/fonts/manrope-v15-cyrillic_cyrillic-ext_latin_latin-ext-regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Merienda';
+    src: url(./assets/fonts/merienda-v19-latin-regular.woff2) format('woff2');
+}
+/* *{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+}
+.hero{
+    background-image: url(./assets/imgs/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color: #ff8161;
+    padding-top: 20px;
+    margin-top: 20px;
+}

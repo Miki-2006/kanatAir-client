@@ -1,0 +1,35 @@
+.banner{
+    height: 80vh;
+    /* background-image: url(../../../../public/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1300px;
+    width: 60%;
+    padding: 0px 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    margin-top: 150px;
+}
+.text1{
+    margin: 0;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Merienda', sans-serif;
+}
+.text2{
+    margin: 0;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: end;
+    font-family: 'Merienda', sans-serif;
+}
+

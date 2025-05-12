@@ -1,0 +1,40 @@
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.offer:hover{
+    scale: 1.01;
+    box-shadow: 0 0 20px 0 #F76641;
+    border: none;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.times{
+    display: flex;
+    gap: 5px;
+}
+.locations{
+    display: flex;
+    gap: 5px;
+}
+.price{
+    display: flex;
+    gap: 5px;
+}
+.aircompany{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
