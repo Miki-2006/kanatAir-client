@@ -10,7 +10,7 @@ const Scanner = () => {
             const base64Image = reader.result.split(',')[1]
 
             try {
-                const response = await fetch('https://vercel.com/mirlans-projects/kanat-air-server/scanner', {       
+                const response = await fetch('https://kanat-air-server.vercel.app//scanner', {       
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({imageBase64: base64Image})

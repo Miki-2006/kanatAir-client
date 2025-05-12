@@ -50,7 +50,7 @@ const SearchForm = () => {
         dispatch(fetchFlightsStart());
 
         try {
-          const res = await fetch("https://vercel.com/mirlans-projects/kanat-air-server/", {
+          const res = await fetch("https://kanat-air-server.vercel.app/", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

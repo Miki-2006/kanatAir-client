@@ -9,7 +9,7 @@ const CheckoutForm = () => {
 
 
     useEffect(() => {
-      fetch('https://vercel.com/mirlans-projects/kanat-air-server/payment', {
+      fetch('https://kanat-air-server.vercel.app//payment', {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

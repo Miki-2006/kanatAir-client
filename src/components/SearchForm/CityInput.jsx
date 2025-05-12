@@ -6,7 +6,7 @@ const CityInput = ({ value, onChange, placeholder, suggestionType }) => {
 
   const fetchSuggestions = async (text) => {
     try {
-      const response = await fetch(`https://vercel.com/mirlans-projects/kanat-air-server/suggestions`, {
+      const response = await fetch(`https://kanat-air-server.vercel.app/suggestions`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
